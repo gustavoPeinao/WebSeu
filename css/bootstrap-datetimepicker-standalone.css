@@ -1,0 +1,98 @@
+@ font-face {
+    font-family : ' Glyphicons Halflings ' ;
+    src : url ( ' ../fonts/glyphicons-halflings-regular.eot ' );
+    src : url ( ' ../fonts/glyphicons-halflings-regular.eot?#iefix ' ) formato ( ' embedded-opentype ' ), url ( ' ../fonts/glyphicons-halflings-regular.woff2 ' ) formato ( ' woff2 ' ), url ( ' ../fonts/glyphicons-halflings-regular.woff ' ) formato ( ' woff ' ), url ( ' ../fonts/glyphicons-halflings-regular.ttf ' )formato ( ' truetype ' ), url ( ' ../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular ' ) formato ( ' svg ' );
+}
+
+.glyphicon {
+    posición : relativa ;
+    arriba : 1 px ;
+    pantalla : bloque en línea ;
+    font-family : ' Glyphicons Halflings ' ;
+    estilo de fuente : normal ;
+    font-weight : normal ;
+    línea-altura : 1 ;
+    -webkit-font-smoothing : antialiased ;
+    -moz-osx-font-smoothing : escala de grises ;
+}
+
+.glyphicon-time : before {
+    contenido : " \ e023 " ;
+}
+
+.glyphicon-chevron-left : before {
+    contenido : " \ e079 " ;
+}
+
+.glyphicon-chevron-right : before {
+    contenido : " \ e080 " ;
+}
+
+.glyphicon-chevron-up : before {
+    contenido : " \ e113 " ;
+}
+
+.glyphicon-chevron-down : before {
+    contenido : " \ e114 " ;
+}
+
+.glyphicon-calendar : before {
+    contenido : " \ e109 " ;
+}
+
+.btn {
+    pantalla : bloque en línea ;
+    relleno : 6 px  12 px ;
+    margin-bottom : 0 ;
+    tamaño de fuente : 14 px ;
+    font-weight : normal ;
+    línea-altura : 1.42857143 ;
+    text-align : center ;
+    espacio en blanco : nowrap ;
+    vertical-alinear : medio ;
+    -ms-touch-action : manipulación ;
+    toque-acción : manipulación ;
+    cursor : puntero ;
+    -webkit-user-select : ninguno ;
+    -moz-user-select : none ;
+    -ms-user-select : none ;
+    user-select : none ;
+    imagen de fondo : ninguno ;
+    borde : 1 px  sólido  transparente ;
+    border-radius : 4 px ;
+}
+
+.collapse {
+    pantalla : ninguna ;
+}
+
+    .collapse.in {
+        pantalla : bloque ;
+    }
+
+.downdown-menu {
+    posición : absoluta ;
+    izquierda : 0 ;
+    índice z : 1000 ;
+    pantalla : ninguna ;
+    flotar : izquierda ;
+    min-width : 160 px ;
+    relleno : 5 px  0 ;
+    margen : 2 px  0  0 ;
+    tamaño de fuente : 14 px ;
+    text-align : izquierda ;
+    lista-estilo : ninguno ;
+    color de fondo : #fff ;
+    -webkit-background-clip : cuadro de relleno ;
+    background-clip : cuadro de relleno ;
+    borde : 1 px  sólido  #ccc ;
+    borde : 1 px  rgba sólido  ( 0 , 0 , 0 , .15 );
+    border-radius : 4 px ;
+    -webkit-box-shadow : 0  6 px  12 px  rgba ( 0 , 0 , 0 , .175 );
+    caja-sombra : 0  6 px  12 px  rgba ( 0 , 0 , 0 , .175 );
+}
+
+.list-unstyled {
+    relleno a la izquierda : 0 ;
+    lista-estilo : ninguno ;
+}
